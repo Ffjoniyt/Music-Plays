@@ -13,8 +13,8 @@ module.exports = {
       .setColor('#2b71ec')
       .setAuthor({
         name: 'Im here to Help!',
-        iconURL: 'https://cdn.discordapp.com/attachments/1175487983915376662/1175667506791325706/communication.png?ex=656c10b0&is=65599bb0&hm=e378f1b355a2401bcab504b08a0766001d6b7c090c91ce0a7a7a87c868feb955&', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668f1bc8&is=668dca48&hm=04383f79fe135d915467432a0c0c5a6b26663d533a676995d8ae05c207bd2b93&', 
+        url: 'https://discord.gg/ZguJjVkJbW'
     })
      
       .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [bush1uk](https://discord.gg/ZguJjVkJbW)**\n\n__**COMMANDS :**__ `)
