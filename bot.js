@@ -54,8 +54,8 @@ client.on("messageCreate", async (message) => {
             const embed = new EmbedBuilder()
             .setAuthor({
                 name: 'Added To Queue',
-                iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157218651179597884/1213-verified.gif?ex=6517cf5a&is=65167dda&hm=cf7bc8fb4414cb412587ade0af285b77569d2568214d6baab8702ddeb6c38ad5&', 
-                url: 'https://discord.gg/xQF9f9yUEM'
+                iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&', 
+                url: 'https://discord.gg/ZguJjVkJbW'
             })
                 .setDescription(`**Playlist Name : **${playlistInfo.name} \n**Tracks : **${tracks.length}`)
                 .setColor('#14bdff')
@@ -71,8 +71,8 @@ client.on("messageCreate", async (message) => {
             const embed = new EmbedBuilder()
             .setAuthor({
                 name: 'Added To Queue',
-                iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157218651179597884/1213-verified.gif?ex=6517cf5a&is=65167dda&hm=cf7bc8fb4414cb412587ade0af285b77569d2568214d6baab8702ddeb6c38ad5&', 
-                url: 'https://discord.gg/xQF9f9yUEM'
+                iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&', 
+                url: 'https://discord.gg/ZguJjVkJbW'
             })
                 .setDescription(`**${track.info.title} **has been queued up and is ready to play!`)
                 .setColor('#14bdff')
@@ -104,8 +104,8 @@ client.on("messageCreate", async (message) => {
         const embed = new EmbedBuilder()
         .setAuthor({
           name: 'Playback Paused!',
-          iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175488720519049337/pause.png?ex=656b6a2e&is=6558f52e&hm=6695d8141e37330b5426f146ec6705243f497f95f08916a40c1db582c6e07d7e&',
-          url: 'https://discord.gg/xQF9f9yUEM'
+          iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
         })
         .setDescription('**Halt the beats! Music taking a break..**')
         .setColor('#2b71ec');
@@ -120,8 +120,8 @@ client.on("messageCreate", async (message) => {
         const embed = new EmbedBuilder()
         .setAuthor({
           name: 'Playback Resumed!',
-          iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175488720762310757/play.png?ex=656b6a2e&is=6558f52e&hm=ae4f01060fe8ae93f062d6574ef064ca0f6b4cf40b172f1bd54d8d405809c7df&',
-          url: 'https://discord.gg/xQF9f9yUEM'
+          iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
         })
         .setDescription('**Back in action! Let the beats roll..**')
         .setColor('#2b71ec');
@@ -151,8 +151,8 @@ client.on("messageCreate", async (message) => {
         .setColor('#188dcc')
             .setAuthor({
                  name: 'Removed Sucessfully!',
-                 iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif?ex=6641dff7&is=66408e77&hm=e4d3f67ff76adbb3b7ee32fa57a24b7ae4c5acfe9380598e2f7e1a6c8ab6244c&',
-                 url: 'https://discord.gg/xQF9f9yUEM'
+                 iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+                 url: 'https://discord.gg/ZguJjVkJbW'
                })
             .setDescription(`**Removed track:** ${removedTrack.info.title}`);  
             message.reply({ embeds: [embed] });
@@ -169,8 +169,8 @@ client.on("messageCreate", async (message) => {
             .setColor('#2b71ec')
             .setAuthor({
                  name: 'Queue',
-                 iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175488721001398333/queue.png?ex=656b6a2e&is=6558f52e&hm=7573613cbb8dcac83ba5d5fc55ca607cf535dd117b4492b1c918d619aa6fd7ad&',
-                 url: 'https://discord.gg/xQF9f9yUEM'
+                 iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+                 url: 'https://discord.gg/ZguJjVkJbW'
                })
             .setDescription(chunk);  
             message.channel.send({ embeds: [embed] });
@@ -185,8 +185,8 @@ client.on("messageCreate", async (message) => {
            .setColor('#2b71ec')
         .setAuthor({
           name: 'Skipped Song!',
-          iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175488721253052426/right-chevron-.png?ex=656b6a2e&is=6558f52e&hm=7a73aa51cb35f25eba52055c7b4a1b56bbf3a6d150643adc15b52dc533236956&',
-          url: 'https://discord.gg/xQF9f9yUEM'
+          iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
         })
           .setDescription('**Let\'s move on to the next beat...**');
         
@@ -200,8 +200,8 @@ client.on("messageCreate", async (message) => {
         .setColor('#188dcc')
         .setAuthor({
           name: 'Shuffled Queue!',
-          iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif?ex=6641dff7&is=66408e77&hm=e4d3f67ff76adbb3b7ee32fa57a24b7ae4c5acfe9380598e2f7e1a6c8ab6244c&',
-          url: 'https://discord.gg/xQF9f9yUEM'
+          iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
         })
           .setDescription('**Let\'s change the rhythm with a random selection!**');
 
@@ -216,8 +216,8 @@ client.on("messageCreate", async (message) => {
         .setColor('#2b71ec')
         .setAuthor({
           name: 'Player Stopped!',
-          iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=6641e8a8&is=66409728&hm=149efc9db2a92eb90c70f0a6fb15618a5b912b528f6b1dcf1b517c77a72a733a&',
-          url: 'https://discord.gg/xQF9f9yUEM'
+          iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
         })
           .setDescription('**Bringing the music to a halt...**');
         message.reply({ embeds: [embed] });
@@ -231,8 +231,8 @@ client.on("messageCreate", async (message) => {
         .setColor('#ffff00')
         .setAuthor({
           name: 'Queue Cleared!',
-          iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif?ex=6641e6e7&is=66409567&hm=25ecf140bc9c1f9492e9b7a0b573457fd498d744c28d56c5df663d7f84302083&',
-          url: 'https://discord.gg/xQF9f9yUEM'
+          iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
         })
           .setDescription('**Starting afresh, clearing out the queue..**');
         message.reply({ embeds: [embed] });
@@ -253,7 +253,7 @@ client.riffy.on("trackStart", async (player, track) => {
     const musicard = await Classic({
         thumbnailImage: track.info.thumbnail,
         backgroundColor: "#070707",
-        backgroundImage: "https://cdn.discordapp.com/attachments/1220001571228880917/1220001571690123284/01.png?ex=660d5a01&is=65fae501&hm=a8cfb44844e61aa0fd01767cd363af048df28966c30d7b04a59f27fa45cf69c4&",
+        backgroundImage: "https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&",
         nameColor: "#FF7A00",
         progressColor: "#FF7A00",
         progressBarColor: "#5F2D00",
@@ -279,8 +279,8 @@ client.riffy.on("trackStart", async (player, track) => {
 
         .setAuthor({
             name: 'Currently playing a Track',
-            iconURL: 'https://cdn.discordapp.com/attachments/1140841446228897932/1144671132948103208/giphy.gif', 
-            url: 'https://discord.gg/xQF9f9yUEM'
+            iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
           })
         .setDescription(details)
         .setImage("attachment://musicard.png");
@@ -301,8 +301,8 @@ client.riffy.on("queueEnd", async (player) => {
         .setColor('#ffff00')
         .setAuthor({
           name: 'Queue Ended!',
-          iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=6641e8a8&is=66409728&hm=149efc9db2a92eb90c70f0a6fb15618a5b912b528f6b1dcf1b517c77a72a733a&',
-          url: 'https://discord.gg/xQF9f9yUEM'
+         iconURL: 'https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668dca48&is=668c78c8&hm=0274ee02a91078e7f592d64f052b1279cfaccaf13814f93d5c3fe8fb02b7ff36&',
+          url: 'https://discord.gg/ZguJjVkJbW'
         })
           .setDescription('**Bye Bye!, No more songs to play...**');
           channel.send({ embeds: [embed] });
