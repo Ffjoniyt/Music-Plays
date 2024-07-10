@@ -57,7 +57,7 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=6641e8b7&is=66409737&hm=96f69ba8bcde4ca44bf8713e22001e0bafad0335cfd1f57c439a34b4762f0e03&`);
+      .setImage(`https://cdn.discordapp.com/attachments/1148591884776779836/1259655155301748786/images.png?ex=668f1bc8&is=668dca48&hm=04383f79fe135d915467432a0c0c5a6b26663d533a676995d8ae05c207bd2b93&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('NeverLeaveBoys Community')
